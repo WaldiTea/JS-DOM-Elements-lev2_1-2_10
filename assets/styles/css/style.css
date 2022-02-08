@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+/*-----lev2_1-----*/
+header {
+  background: #000;
+  color: #fff;
+}
+
+header nav,
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+header nav ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 0.5rem;
+}
+
+header nav ul .change {
+  background: tomato;
+}
+
+header nav button {
+  padding: 0.5rem;
+}
+
+/*-----lev2_2-----*/
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+div:first-of-type {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/*-----lev2_10-----*/
+body {
+  font-family: "Karla", sans-serif;
+}
+
+button {
+  background-color: #035aa6;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.wrapper {
+  max-width: 500px;
+  margin-top: 2rem;
+  color: green;
+}
+
+div:last-of-type {
+  border-radius: 5px;
+}
+
+.small {
+  -webkit-box-shadow: 0 0 0 5px gray;
+          box-shadow: 0 0 0 5px gray;
+}
+
+.middle {
+  -webkit-box-shadow: 0 0 0 10px gray;
+          box-shadow: 0 0 0 10px gray;
+}
+
+.big {
+  -webkit-box-shadow: 0 0 0 15px gray;
+          box-shadow: 0 0 0 15px gray;
+  font-family: "Calligraffitti";
+  color: orange;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/*# sourceMappingURL=style.css.map */

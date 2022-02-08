@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/css/style.css">
+    <title>lev2_1-2_10</title>
+  </head>
+  <body>
+    <!--lev2_1-->
+    <header>
+      <nav>
+        <ul>
+          <li id="listItem">Home</li>
+          <li>News</li>
+          <li>Contact</li>
+        </ul>
+        <button onclick="changeMe()">Change me</button>
+      </nav>
+    </header>
+
+    <hr>
+
+    <!--lev2_2-->
+    <div>
+      <form id="form1" onsubmit="return false">
+        <label for="vorname">Vorname</label>
+        <input type="text" id="vorname" name="vorname"
+          placeholder="Dein Name...">
+        <label for="nachname">Last Name</label>
+        <input type="text" id="nachname"
+          name="nachname" placeholder="Dein Nachname...">
+        <label for="land">Land</label>
+        <select id="land" name="land">
+          <option value="Australia">Australia</option>
+          <option value="Canada">Canada</option>
+          <option value="Usa">USA</option>
+        </select>
+        <input type="submit" value="Submit" onclick="weiterLeiten()">
+      </form>
+    </div>
+
+    <hr>
+
+    <!--lev2_10-->
+
+    <button onclick="small()">Small</button>
+    <button onclick="middle()">Middle</button>
+    <button onclick="bigCrazy()">Big & Crazy</button>
+
+    <div class="wrapper">
+      <div id="element" class="small">
+        <h1>Hallo classList!</h1>
+      </div>
+    </div>
+
+    
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
